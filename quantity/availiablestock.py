@@ -104,4 +104,3 @@ def excel_to_dataframe(
     df['datetimeofdoc'] = pd.to_datetime(df['datetimeofdoc'])
 
     return df
-
